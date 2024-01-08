@@ -125,3 +125,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 MEDIA_URL = '/media/'
+
+AUTH_USER_MODEL = 'blog.User'
