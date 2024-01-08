@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ckeditor',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -125,5 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 MEDIA_URL = '/media/'
+
+CKEDITOR_BASEPATH = "/my_static/ckeditor/ckeditor/"
 
 AUTH_USER_MODEL = 'blog.User'
